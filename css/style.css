@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+}
+
+@font-face{
+  src: url(../font/kenarose/Kenarose.otf);
+  font-family: 'kenarose';
+}
+
+a{
+  all: initial;
+  font: inherit;
+  color: inherit;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.top-wrapper{
+  background-color: #202020;
+
+  height: 10vh;
+
+  display: flex;
+
+}
+
+.top-center{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  
+  height: 100%;
+  width: 88vw;
+
+  margin-left: 6vw;
+
+  font-family: 'kenarose';
+  font-size: 4rem;
+
+  color: #ffffff;
+}
+
+.top-github-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5vw;
+  margin-right: 1vw;
+}
+
+.github-icon{
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.top-page-name{
+  margin-left: 2rem;
+}
+
+.user-wrapper{
+  background-color: #f9ffe9;
+
+  height: 15vh;
+}
+
+.main-wrapper{
+  background-color: #355e3b;
+  
+  height: 75vh;
+}
