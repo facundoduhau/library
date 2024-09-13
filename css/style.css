@@ -7,6 +7,26 @@ body{
   font-family: 'kenarose';
 }
 
+@font-face{
+  src: url(../font/MonospaceTypewriter.ttf);
+  font-family: 'monospace';
+}
+
+@font-face{
+  src: url(../font/Roboto-Italic.ttf);
+  font-family: 'roboto';
+}
+
+@font-face{
+  src: url(../font/kenyan\ coffee\ bd\ it.otf);
+  font-family: 'kenyan';
+}
+
+@font-face{
+  src: url(../font/IRON\ MAN\ OF\ WAR\ 002\ NCV.ttf);
+  font-family: 'iron';
+}
+
 a{
   all: initial;
   font: inherit;
@@ -31,6 +51,26 @@ a:hover{
 
 }
 
+.top-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 5vw;
+  margin-left: 1vw;
+}
+
+.top-menu-icon, .github-icon{
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 3rem;
+  transition: font-size 1s;
+}
+
+.top-menu-icon:hover, .github-icon:hover{
+  font-size: 4rem;
+}
+
 .top-center{
   display: flex;
 
@@ -40,9 +80,7 @@ a:hover{
   height: 100%;
   width: 88vw;
 
-  margin-left: 6vw;
-
-  font-family: 'kenarose';
+  font-family: 'monospace';
   font-size: 4rem;
 
   color: #ffffff;
@@ -56,19 +94,82 @@ a:hover{
   margin-right: 1vw;
 }
 
-.github-icon{
-  font-size: 3rem;
-  color: #ffffff;
-}
-
 .top-page-name{
   margin-left: 2rem;
 }
 
-.user-wrapper{
+.middle-wrapper{
   background-color: #f9ffe9;
 
   height: 15vh;
+  display: flex;
+}
+
+.user-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  height: 100%;
+  width: 40vw;
+  margin-left: 10vw;
+}
+
+.user-icon-wrapper{
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  margin-right: 1rem;
+}
+
+.user-icon{
+  height: 12vh;
+  border-radius: 100%;
+}
+
+.user-name{
+  font-family: 'monospace';
+  font-weight: lighter;
+}
+
+.stats-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 40vw;
+
+  font-family: 'iron';
+  font-size: 3rem;
+  color: #000000;
+}
+
+.mid-read-wrapper, .mid-pages-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.add-new-book-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  width: 10vw;
+}
+
+.add-new-book-button{
+  font-size: 4rem;
+  transition: font-size 1s;
+}
+
+.add-new-book-button:hover{
+  cursor: pointer;
+  font-size: 5rem;
 }
 
 .main-wrapper{
