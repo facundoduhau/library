@@ -10,6 +10,7 @@
     <script src="script/main.js" defer></script>
   </head>
   <body>
+    <script>0</script>
     <div class="wrapper">
 
       <div class="top-wrapper">
@@ -58,8 +59,8 @@
           </div>
         </div>
 
-        <div class="add-new-book-wrapper">
-          <i class="fa-solid fa-circle-plus add-new-book-button"></i>
+        <div class="add-new-book-wrapper" id="newButton">
+          <i class="fa-solid fa-circle-plus add-new-book-button" id="newBook"></i>
         </div>
 
       </div>
@@ -78,10 +79,10 @@
             </div>
             <div class="book-interactions">
               <div class="delete-wrapper">
-                <i class="fa-solid fa-trash-can delete-book-button"></i>
+                <i class="fa-solid fa-trash-can delete-book-button" id="deleteBook"></i>
               </div>
               <div class="favorite-wrapper">
-                <i class="fa-regular fa-bookmark favorite-book-button"></i>
+                <i class="fa-regular fa-bookmark favorite-book-button" id="favoriteBook"></i>
               </div>
             </div>
           </div>
