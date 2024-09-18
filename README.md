@@ -1,4 +1,5 @@
 # 📚 Library
 
 Image preview:
-![image](https://github.com/user-attachments/assets/643d2973-65a2-4cdd-b6a6-26606a36625d)
+
+![image](https://github.com/user-attachments/assets/3b7f433b-5fec-474f-8326-1e228217d616)
