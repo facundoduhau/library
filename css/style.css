@@ -174,7 +174,8 @@ a:hover{
 
 .main-wrapper{
   background-color: #355e3b;
-  
+  display: flex;
+  flex-wrap: wrap;
   height: 75vh;
 }
 
@@ -184,7 +185,7 @@ a:hover{
   border-top: #ffffff solid 1rem;
   width: 10vw;
   height: 25vh;
-  margin: 3vw;
+  margin: 2.5vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -246,4 +247,69 @@ a:hover{
   border-radius: 100%;
   cursor: pointer;
   transition: background-color 1s;
+}
+
+.modal-wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  border: black solid;
+  background-color: #ffffff;
+
+  border-radius: 1rem;
+
+  width: 25vw;
+  height: 40vh;
+}
+
+.close-button-wrapper{
+  margin-left: 85%;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+::placeholder{
+  padding: 12px;
+}
+
+.title-input-wrapper, .author-input-wrapper, .pages-input-wrapper{
+  border: 1px #eaeaea solid;
+  border-radius: 8px;
+  width: 80%;
+  background-color: #f1f2f3;
+}
+
+.title-input, .author-input, .pages-input{
+  all: initial;
+  padding: 6px;
+  margin-left: 4px;
+}
+
+.add-book-wrapper{
+  margin-bottom: 12px;
+}
+
+.add-book{
+  all: initial;
+  border: 1px #141a14 solid;
+  background-color: #455c45;
+  color: #ffffff;
+  width: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.add-book:hover{
+  background-color: #658565;
+  color: #000000;
+  cursor: pointer;
 }
