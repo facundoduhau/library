@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.header {
+  background-color: rgb(23, 23, 76);
+  color: white;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+}
+
+.website-name {
+  margin-left: 10vw;
+  font-size: 3rem;
+}
+
+.main {
+  background-color: rgb(59, 130, 153);
+  color: white;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.new-book {
+  all: initial;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  border-radius: 5rem;
+  color: white;
+  background-color: rgb(50, 88, 131);
+  margin: 1rem;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 100%;
+}
