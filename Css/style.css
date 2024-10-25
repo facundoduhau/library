@@ -149,3 +149,63 @@ body {
   height: 100%;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
+
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.book-card {
+  background-color: rgb(228, 228, 230);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.book-card h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: rgb(23, 23, 76);
+}
+
+.book-card p {
+  margin: 0.5rem 0;
+  color: rgb(50, 88, 131);
+}
+
+.book-status {
+  margin: 0.5rem 0;
+}
+
+.delete-btn {
+  background-color: rgb(73, 73, 196);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.delete-btn:hover {
+  background-color: rgb(60, 60, 160);
+}
+
+.main {
+  position: relative;
+  padding-right: 5rem;
+}
+
+.new-book {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+}
