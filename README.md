@@ -14,7 +14,7 @@ Books can also be deleted from the screen when the
 
 Here is an image preview:
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/fe208071-c5fb-437a-95d0-3c86b87c6fe0)
 
 This project was done to improve:
 
