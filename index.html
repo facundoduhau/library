@@ -4,16 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Css/style.css" />
-    <script src="./Js/script.js"></script>
+    <script src="./Js/script.js" defer></script>
     <title>📚 Library</title>
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
-        <div class="website-name">Librafy</div>
+        <div class="website-name">Librify</div>
       </header>
       <main class="main">
-        <button class="new-book">+</button>
+        <button class="new-book" id="newBookButton">+</button>
+        <div class="popup" id="popup">
+          <div class="input-top">
+            <div class="popup-title">New Book</div>
+            <div class="input-close">
+              <button
+                type="button"
+                class="input-close-button"
+                id="closePopupButton"
+              >
+                ✘
+              </button>
+            </div>
+          </div>
+          <div class="input wrapper">
+            <div class="input-title">Title:</div>
+            <input
+              type="text"
+              name="book-title"
+              placeholder="Book Title"
+              class="book title"
+            />
+            <div class="input-author">Author:</div>
+            <input
+              type="text"
+              name="book-author"
+              placeholder="Book Author"
+              class="book author"
+            />
+            <div class="input-pages">Pages:</div>
+            <input
+              type="text"
+              name="book-pages"
+              placeholder="Number of Pages"
+              class="book pages"
+            />
+            <div class="checkbox-wrapper">
+              <div class="input-read">Finished</div>
+              <input type="checkbox" name="book read" class="checkbox" />
+            </div>
+          </div>
+          <div class="input-submit">
+            <button type="submit" class="input-submit-button">Add Book</button>
+          </div>
+        </div>
       </main>
       <footer class="footer">
         <div>Copyright © 2024 facundoduhau</div>
